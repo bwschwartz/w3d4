@@ -16,6 +16,11 @@ class Board
     end
   end
 
+  def update_adjacent(pos)
+
+
+  end
+
   def print_grid
     grid.each do |row|
       row.each do |square|
@@ -38,6 +43,10 @@ class Board
 
   def reveal(pos)
 
+
+  end
+
+  def show_adjacents
   end
 
   def show_bombs

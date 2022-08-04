@@ -13,6 +13,7 @@ class Tile
   def initialize(bomb)
     @bomb = bomb
     @display = "  *  "
+    @adjacent_bombs = 0
   end
 
   def to_s
